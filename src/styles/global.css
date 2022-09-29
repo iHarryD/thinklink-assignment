@@ -9,7 +9,7 @@
 body {
   background: var(--PRIMARY-BACKGROUND-CLR);
   color: var(--PRIMARY-TEXT-CLR);
-  font-family: "Work Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: calc(var(--LOGO-HEIGHT) + calc(var(--NAVBAR-PADDING-Y) * 2))
     var(--BODY-PADDING-X);
 }
@@ -24,4 +24,8 @@ li {
 a,
 button {
   cursor: pointer;
+}
+
+input {
+  cursor: text;
 }

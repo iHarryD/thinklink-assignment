@@ -6,8 +6,7 @@
   --LIGHT-GREY-CLR: #8c8ca1;
   --PRIMARY-BACKGROUND-CLR: #e5e5e5;
 
-  --BODY-PADDING-X: clamp(1rem, 1rem + 2vw, 4rem);
-  --BODY-PADDING-Y: 1.5rem;
-  --LOGO-HEIGHT: 50px;
-  --NAVBAR-PADDING-Y: 10px;
+  --BODY-PADDING-X: 1.5rem;
+  --BODY-PADDING-Y: 0;
+  --ICON-SIZE: 1.4rem;
 }
