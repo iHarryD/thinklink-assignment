@@ -6,7 +6,13 @@ export const StyledHeader = styled.header`
   display: flex;
   color: #fff;
   justify-content: space-between;
+  height: var(--HEADER-HEIGHT);
   padding: 10px var(--BODY-PADDING-X);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 `;
 
 export const LogoContainer = styled.span`

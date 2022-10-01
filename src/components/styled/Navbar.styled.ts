@@ -1,15 +1,19 @@
 import styled from "styled-components";
 
 export const AsideBar = styled.aside`
-  background: #f7f1f3;
   border-right: 1px solid #ecf1f4;
   color: var(--DARK-GREY-CLR);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
   min-width: fit-content;
-  width: min(15rem, 15vw);
+  overflow: auto;
+  position: fixed;
+  top: var(--HEADER-HEIGHT);
+  left: 0;
+  bottom: 0;
+  width: var(--SIDE-NAVBAR-WIDTH);
+  z-index: 1;
 `;
 
 export const StyledSideNavbar = styled.nav`
@@ -25,6 +29,7 @@ export const NavButton = styled.button`
   padding: var(--SIDE-NAVBAR-PADDING-Y) var(--SIDE-NAVBAR-PADDING-X);
 
   &.active {
+    background: #f7f1f3;
     border-right: 2px solid currentColor;
     color: var(--ACCENT-MAROON-CLR);
   }

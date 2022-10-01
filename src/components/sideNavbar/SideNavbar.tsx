@@ -26,14 +26,9 @@ export function SideNavbar() {
           { icon: faShoppingBag, title: "Orders" },
           { icon: faUserGroup, title: "Customers" },
           { icon: faUserGroup, title: "Reports" },
-          { icon: faGear, title: "faGear" },
+          { icon: faGear, title: "Settings" },
         ].map(({ icon, title }, index) => (
-          <NavItem
-            key={title}
-            icon={icon}
-            title={title}
-            isActive={index === 0 ? true : false}
-          />
+          <NavItem key={title} icon={icon} title={title} isActive={!index} />
         ))}
       </StyledSideNavbar>
       <SideBarFooter>
