@@ -43,9 +43,9 @@ export const PageHeader = styled.div`
 
 export const OrderCardsContainer = styled.div`
   align-items: center;
-  display: flex;
+  display: grid;
   gap: 2em;
-  justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr);
 `;
 
 export const SectionHeading = styled.p`
