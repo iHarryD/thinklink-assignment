@@ -10,17 +10,6 @@ import {
 
 const allProducts = [
   {
-    cost: "$56.95",
-    description: "France · Sauternes ",
-    latestRating: "RP 95",
-    price: "$59.95",
-    quantity: 4,
-    title: "Staglin Family Vineyard..",
-    totalRatingCount: 3,
-    vintage: "1950's",
-    volumn: "Standard (750 mL)",
-  },
-  {
     cost: "$71.95",
     description: "Chianti · Blends and Other",
     latestRating: "RP 95",
@@ -28,6 +17,17 @@ const allProducts = [
     quantity: 32,
     title: "Bibi Graetz Testamatta Tos...",
     totalRatingCount: 3,
+    vintage: "2015",
+    volumn: "Magnum (1500 mL)",
+  },
+  {
+    cost: "$79.95",
+    description: "France · Sauternes",
+    latestRating: "RP 95",
+    price: "$92.95",
+    quantity: 32,
+    title: "K Vintners Syrah Cattle king",
+    totalRatingCount: 25,
     vintage: "2015",
     volumn: "Magnum (1500 mL)",
   },
@@ -53,17 +53,6 @@ const allProducts = [
     totalRatingCount: 3,
     vintage: "2010",
     volumn: "Odd Ball (5000 mL)",
-  },
-  {
-    cost: "$79.95",
-    description: "France · Sauternes",
-    latestRating: "RP 95",
-    price: "$92.95",
-    quantity: 32,
-    title: "K Vintners Syrah Cattle king",
-    totalRatingCount: 25,
-    vintage: "2015",
-    volumn: "Magnum (1500 mL)",
   },
 ];
 
