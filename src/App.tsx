@@ -64,6 +64,7 @@ function App() {
           <OrderCardsContainer>
             {orderCards.map(({ color, count, icon, title }) => (
               <OrderCard
+                key={title}
                 color={color}
                 count={count}
                 icon={icon}

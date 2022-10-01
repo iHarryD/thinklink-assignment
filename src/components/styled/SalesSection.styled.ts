@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SalesDetailsSection = styled.section`
+export const SalesDetailsContainer = styled.div`
   border: 1px solid #fff2ee;
   padding: var(--SECTION-PADDING);
   padding-bottom: 0;

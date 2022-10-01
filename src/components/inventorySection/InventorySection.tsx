@@ -15,7 +15,7 @@ const allProducts = [
     latestRating: "RP 95",
     price: "$59.95",
     quantity: 4,
-    title: "Staglin Family Vineyard...",
+    title: "Staglin Family Vineyard..",
     totalRatingCount: 3,
     vintage: "1950's",
     volumn: "Standard (750 mL)",
